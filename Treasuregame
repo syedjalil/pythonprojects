@@ -1,0 +1,50 @@
+print('''
+'
+   .
+  /:\
+  |:|
+  |:|
+  |:|                              *_   _   _   _   _   _   _   *
+  |:|      __                      | `_' `-' `_' `-' `_' `-' `_'|
+,_|:|_,   /  )                     |                            |
+  (Oo    / _I_                     |  LONG LIVE  alt.ascii-art  |
+   +\ \  || __|            ^       |                            |       ^
+      \ \||___|            |       |     Free & Unmoderated     |       |
+        \ /.:.\-\          |  (*)  |_   _   _   _   _   _   _   |  \^/  |
+         |.:. /-----\      | _<">_ | `_' `-' `_' `-' `_' `-' `_'| _(#)_ |
+         |___|  oOo  |    o+o \a/ \0                            0/ \a/ (=)
+         /   ||     0'\a-a/\/                            \/\a-a/`0
+        |_____\  :  /        /_^_\ |                            | /_^_\
+         | |  \ \:/          || || |                            | || ||
+         | |   | |           d|_|b_T____________________________T_d|_|b
+         \ /   | \___              /                           /
+         / |   \_____\           /                            /
+         `-'                   /                             /  -cfbd-
+____________________________ /                             /__________
+''')
+
+print('''    _ _                 _ _            _   
+      | | |               (_|_)          | |  
+  __ _| | |_ __ _ ___  ___ _ _  __ _ _ __| |_ 
+ / _` | | __/ _` / __|/ __| | |/ _` | '__| __|
+| (_| | | || (_| \__ \ (__| | | (_| | |  | |_ 
+ \__,_|_|\__\__,_|___/\___|_|_|\__,_|_|   \__|''')
+
+print("Welcome to treasure island.\nYou mission is to find treasure")
+
+direction = input("Would you go 'l' or 'r' ")
+if direction == 'l' or direction == 'L':
+      swim = input("Can you swim or wait, 's' or 'w'")
+      if swim == 'w' or swim == 'W':
+            door = input("Which door you want to open ''B', 'R', 'Y' ")
+            if  door == 'y' or door == 'Y':
+                  print("Win")
+            else:
+                  print("GameOver")
+
+      else:
+            print("GameOver")
+
+else:
+      print("GameOver")
+
